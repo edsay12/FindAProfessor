@@ -1,5 +1,17 @@
+import Button from "@mui/material/Button";
+
 function Home() {
-  return <>Sou uma linda pagina de home</>;
+  return (
+    <div className="">
+      <Button variant="contained">Contained</Button>
+      <Button variant="contained" disabled>
+        Disabled
+      </Button>
+      <Button variant="contained" href="#contained-buttons">
+        Link
+      </Button>
+    </div>
+  );
 }
 
 export default Home;
